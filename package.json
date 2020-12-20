@@ -24,10 +24,12 @@
   "dependencies": {
     "comlink": "^4.3.0",
     "dexie": "^3.0.3",
+    "node-sass": "^5.0.0",
     "preact": "^10.1.0",
     "preact-bulma": "^2.0.0-next.3",
     "preact-i18n": "^2.3.0-preactx",
     "preact-render-to-string": "^5.1.2",
+    "sass-loader": "^10.1.0",
     "unstated-next": "^1.1.0",
     "worker-loader": "^3.0.6"
   }
