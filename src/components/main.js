@@ -2,6 +2,7 @@ import { useEffect, useState, useRef } from "preact/hooks";
 import style from "./style";
 import { Component } from "preact";
 import { StoreContainer } from "../store";
+// import {Button} from "react-bulma-components";
 import {
   Textarea,
   TextInput,
@@ -19,7 +20,7 @@ const getInputValue = name => {
 
 const Main = () => {
   const store = StoreContainer.useContainer();
-
+  // return <div>Hello</div>
   return <Field label="Button" help="Help for button."><Button>Hello</Button></Field>
 
 };
